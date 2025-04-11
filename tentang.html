@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NusaLens</title>
+    <!-- tailwindcss -->
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white dark:bg-gray-900 flex flex-col min-h-screen">
+    <!-- navbar -->
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="index.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-['inter']"
+            >NusaLens</span
+          >
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            onclick="window.open('https://wordwall.net/resource/90159503', '_blank')"
+            type="button"
+            class="cursor-pointer text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Game
+          </button>
+
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href="tentang.html"
+                class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a
+                href="artikel.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Artikel</a
+              >
+            </li>
+            <li>
+              <a
+                href="wilayah.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Wilayah Indonesia</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- tentang kami -->
+    <section class="bg-white dark:bg-gray-900 mt-16 flex-grow">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+        <h1
+          class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+        >
+          Tentang
+          <span
+            class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600"
+            >Kami</span
+          >
+        </h1>
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-2"
+        >
+          <span class="font-semibold text-white">NusaLens</span> adalah jendela
+          digital untuk melihat dan memahami kekayaan Indonesia dari berbagai
+          sisi—budaya, wilayah, sejarah, dan keberagaman masyarakatnya. Kami
+          percaya bahwa setiap sudut Nusantara memiliki cerita unik yang layak
+          untuk dikenal dan dibagikan.
+        </p>
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-2"
+        >
+          Melalui NusaLens, kami menghadirkan konten informatif, visual menarik,
+          dan cerita otentik dari seluruh penjuru negeri. Baik itu tradisi adat,
+          kuliner khas, destinasi tersembunyi, hingga bahasa daerah, semuanya
+          kami rangkum dalam satu platform yang edukatif dan inspiratif.
+        </p>
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-2"
+        >
+          Bersama NusaLens, mari jelajahi dan lestarikan warisan Indonesia untuk
+          generasi sekarang dan yang akan datang.
+        </p>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 my-10 px-4 text-left text-gray-700"
+        >
+          <div
+            class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 transition-all dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              🌍 Eksplorasi Wilayah
+            </h5>
+            <p class="text-gray-700 dark:text-gray-400">
+              Kami memperkenalkan berbagai daerah di Indonesia beserta potensi
+              alam, budaya lokal, serta keunikan geografisnya.
+            </p>
+          </div>
+
+          <div
+            class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 transition-all dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              🎭 Budaya & Tradisi
+            </h5>
+            <p class="text-gray-700 dark:text-gray-400">
+              Menyajikan cerita tentang adat istiadat, kesenian, bahasa daerah,
+              hingga upacara tradisional yang memperkaya identitas bangsa.
+            </p>
+          </div>
+
+          <div
+            class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 transition-all dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              📖 Edukasi & Inspirasi
+            </h5>
+            <p class="text-gray-700 dark:text-gray-400">
+              Konten yang dirancang untuk mengedukasi generasi muda mengenai
+              nilai-nilai kebhinekaan dan pentingnya pelestarian budaya.
+            </p>
+          </div>
+        </div>
+
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-2"
+        >
+          Dengan semangat gotong royong, NusaLens mengajak semua generasi untuk
+          ikut menjaga, merayakan, dan menyebarluaskan nilai-nilai luhur bangsa
+          melalui media digital.
+        </p>
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-2"
+        >
+          <span class="text-white">Dibuat Oleh:</span> Muhammad Ahdan Firdaus, Fauzan Daffa, Kemal Dwipa, Nia
+        </p>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="rounded-lg shadow-sm m-4 dark:bg-gray-800">
+      <div
+        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      >
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2025 <a href="index.html" class="hover:underline">NusaLens</a>. All
+          Rights Reserved.
+        </span>
+        <ul
+          class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+        >
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Beranda</a>
+          </li>
+          <li>
+            <a href="tentang.html" class="hover:underline me-4 md:me-6"
+              >Tentang Kami</a
+            >
+          </li>
+          <li>
+            <a href="artikel.html" class="hover:underline me-4 md:me-6"
+              >Artikel</a
+            >
+          </li>
+          <li>
+            <a href="wilayah.html" class="hover:underline me-4 md:me-6"
+              >Wilayah Indonesia</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://wordwall.net/resource/90159503"
+              class="hover:underline"
+              >Game</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
