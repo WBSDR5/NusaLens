@@ -15,3 +15,20 @@
 - HTML, Tailwind CSS, JavaScript
 - Flowbite UI Kit
 - Pexels API
+
+
+## 🚀 Cara Menjalankan Lokal
+1. Clone repositori ini
+```sh
+git clone https://github.com/AhdanFirdaus/NusaLens.git
+```
+2. Install dependensi
+```sh
+npm install
+```
+3. Buka `index.html` di browser
+4. Nikmati eksplorasi daerah Indonesia!
+
+---
+
+## Thanks 👋
