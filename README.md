@@ -10,3 +10,8 @@
 - 📄 Artikel atau card dengan gambar, judul, deskripsi, dan tombol *Read more*.
 - 📱 Responsif dan tampil menarik di berbagai ukuran layar.
 - 🌙 Dukungan untuk mode gelap (dark mode).
+
+## 🛠️ Teknologi yang Digunakan
+- HTML, Tailwind CSS, JavaScript
+- Flowbite UI Kit
+- Pexels API
