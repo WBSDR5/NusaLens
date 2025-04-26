@@ -31,4 +31,7 @@ npm install
 
 ---
 
-## Thanks 👋
+## 🙏 Terima Kasih
+Terima kasih telah mengunjungi **NusaLens**.  
+Proyek ini dibuat untuk mengenalkan keindahan dan keberagaman Indonesia.  
+Semoga bermanfaat dan menginspirasi! 🇮🇩
